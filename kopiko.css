@@ -1,0 +1,229 @@
+*{
+    padding: 0%;
+    background-color: black;
+}
+
+body{
+    font-size: 1.125rem;
+    font-weight: normal;
+    line-height: 1.75;
+    background-color: black;
+    
+    
+}
+
+.header{
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+.site-identity{
+    text-align: center;
+    color: #b7b7b7;
+    border-color: #b7b7b7;
+    border-bottom: 1px;
+    border-style: solid;
+     border-left: 0px;
+     border-right: 0px;
+     border-top: 0px;
+     
+    
+}   
+.site-title {
+    font-size: 21px;
+    font-size: 1.3125rem;
+    line-height: 1.15;
+    letter-spacing: 6.5px;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    padding-top: 10vh;
+
+
+} 
+.site-description {
+    line-height: 1.5;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 4px 0 0 0;
+    color: #b7b7b7;
+}
+.site-title a {
+    text-decoration: none;
+    color: #b7b7b7;
+}
+.cup-img{
+    width: 100%;
+}
+.title-coffie{
+    column-gap: 0px;
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.6em;
+    letter-spacing: -0.6px;
+    max-width: 1200px;
+    color: #7a7a7a;
+    padding-top: 35vh;
+    background-color: black;
+}
+.nav-button{
+   width: 90%;
+}
+.nav-button a {
+    color:#fff;
+}
+.title{
+    background-color: black;
+}
+.kopi:hover{
+    color: rgb(188, 86, 86);
+}
+.navbar-toggler .fw-bold {
+    font-size: 1rem;   /* Adjust font size */
+    color: #e4dede;       /* Adjust color as needed */
+    margin-left: 0.2rem; /* Fine-tune margin if needed */
+}
+.coffie-img{
+    
+    height: auto;
+    max-width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 75px;
+    margin-bottom: 150px;
+}
+
+
+
+footer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.social-icons a {
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 35px; /* Adjust size as needed */
+    height: 35px;
+    border-radius: 50%;
+}
+
+/* Media Query for screens smaller than 600px */
+@media (max-width: 1199px) {
+    .social-icons {
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .social-icons a:nth-child(4) {
+        flex-basis: 100%;
+    }
+}
+
+   
+
+
+/* Change the toggle icon color to white */
+.toggle-white .navbar-toggler-icon {
+    background-color:transparent; /* Change icon color */
+}
+
+/* Optional: Change the background of the button if needed */
+.toggle-white {
+    border-color: white; /* Optional: change border color */
+}
+.home-tag{
+    margin-top: -10px;
+    font-size: x-large;
+}
+.footer-title {
+    justify-content: center ;
+    display:flex;
+    color: #999;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    margin-bottom: 15vh;
+}
+
+.footer-title a{
+    text-decoration: none;
+    color: #999;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+}
+
+    
+
+
+   
+
+
+@media only screen and (min-width: 48em) {
+    .site-title {
+        font-size: 44px;
+        
+    }
+}
+
+@media(max-width:1140px){
+    .header{
+        padding: 0px !important;
+    }
+    .site-title {
+        font-size:  24px;
+    }
+}
+@media only screen and (min-width: 85.375em) {
+    .header .site-header-main .footer-title {
+        padding: 0 50px;
+        padding: 40px 50px;
+    }
+}
+@media (max-width: 1199px) {
+    /* Center the hamburger menu button */
+    .navbar-toggler {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Center the navbar items */
+    .navbar-collapse {
+        justify-content: center !important;
+    }
+}
+/* Change the hover effect to red for the main navigation links */
+.navbar-nav .nav-link:hover {
+    color: rgb(219, 78, 78) !important;  /* Text color turns red on hover */
+}
+
+/* Change the hover effect for the dropdown items to red */
+.dropdown-menu .dropdown-item:hover {
+    color: rgb(193, 82, 82) !important;  /* Text color turns red on hover */
+    background-color: transparent;  /* Keep the background transparent if you want */
+}
+/* Add red top border to the "HOME" nav item */
+.navbar-nav .home-tag {
+    border-top: 3px solid red;  /* You can adjust the thickness (3px) as needed */
+}
+
+/* Optional: Change the hover color to red as well for consistency */
+.navbar-nav .home-tag:hover {
+    color: red !important;
+    border-top-color: red;  /* Ensures border stays red on hover */
+}
